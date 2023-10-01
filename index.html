@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="header">
+    <nav>
+      <a href="index.html"><img src="img/logo1.png"></a>
+      <div class="nav-bar" id="navBar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our_team.html">Our Team</a></li>
+          <li><a href="workshop.html">Workshops</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" id="icon" onclick="showMenu()"></i>
+    </nav>
+    <div class="front">
+      <h2>BIOTSAV '23
+        <span>BIOTSAV '23</span>
+        <span>BIOTSAV '23</span>
+        <span>"Theme of The Event"</span>
+      </h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente nobis similique possimus ipsam illo?</p> -->
+    </div>
+  </section>
+  
+  <!-- javaScript for toggle menu -->
+  <script>
+    var navBar = document.getElementById("navBar");
+    var navicon = document.getElementById("icon");
+    function showMenu() {
+      navBar.style.right = "0";
+      navicon.style.visibility = "hidden";
+    }
+    function hideMenu() {
+      navBar.style.right = "-200px";
+      navicon.style.visibility = "visible";
+    }
+  </script>
+  
+  <section class="introduction">
+    <h1 class="heading">INTRODUCTION</h1>
+    <p>The indomitable passion and quest, for the unexplored and the sublime, is the very essence of humanity. Here at
+      “Biotsav”, we celebrate the triumph of new ideas and thoughts, at the same time rejoicing the mysteries of life
+      through the eye-piece of science. Moreover, what better way to do it than to bring both the creative and intuitive
+      together in one great confluence of ideas. In November, India will witness its FIRST AND BIGGEST BIOSCIENCES &
+      BIOENGINEERING FEST, BIOTSAV’19 (for all engineering, medical and science background students who are working in the
+      area of biology-based applications), a fest, rightful to be the torch-bearer in the blossoming avenue of
+      Biotechnology. The motto of Biotsav’19 is the fusion of interdisciplinary fields with biology (Biofusion) for
+      innovation and entrepreneurship. We humbly accept the legacy that IIT KHARAGPUR bequeaths upon us and we vow to form
+      a rich bond with our beloved sponsors who after all are the very pillars upon which this “bastion of the future”
+      stands. We look forward to having a cherished relationship with you, a relationship based on this firm hope that one
+      day, our mutual juxtaposition would amount to the flame of Biotechnology glowing with ever-increasing glory of our
+      nation.</p>
+  </section>
+  
+  
+  
+  <section id="aboutcolor">
+    <section class="about">
+      <h1 id="about_heading">About us</h1>
+    </section>
+    <section id="about_body">
+      <h1 id="about_hed">BioEnGene</h1>
+      <p id="about_txt">With rapid growth, development, and availability of ample opportunity in the field of
+        Bio-Engineering; government along with major private sector companies have started working and exploring this
+        uncharted territory. A variety of innovation and cutting-edge research in various fields is starting to converge
+        towards bio-based solutions. In this era of new India, we believe in a future where Bio-Engineering/bio-based
+        solutions/bio-mimetics will provide solutions to major fundamental challenges globally and locally. That is why
+        there is an ever-increasing need for collaboration among young, energetic brains, with the help of expert
+        industrialists, and academic professors from various disciplines to work on developing working prototypes against
+        various challenges starting with healthcare challenges to many more. We envisage that BioEnGene will provide a
+        platform that can facilitate this collaboration and also provide students with opportunity and awareness regarding
+        the same.</p>
+    </section>
+  
+    <div>
+      <img src="./img/ezgif.com-gif-maker (2).gif" alt="Random Image 1" width="90%" class="images_allin1">
+      <p>Rapid prototyping in the field of healthcare/Med-tech/diagnostics. Exploring the possibility of application
+        mainly focusing on immediate societal challenges and exploring opportunities for possible applications of
+        Bio-Engineering in all other domains.</p>
+    </div>
+    <div>
+      <img src="./img/ezgif.com-gif-maker (1).gif" alt="Random Image 1" width="20%" class="images_allin2">
+      <p>Proactive members with good experience in their respective subjects, who are energetic and enthusiastic to
+        contribute towards the service of the nation. Our vision, leadership, advisors and working style are the unique
+        strengths of our team.</p>
+    </div>
+    <div>
+      <img src="./img/ezgif.com-gif-maker.gif" alt="Random Image 1" width="70%" class="images_allin3">
+      <p>Continuous cross-questioning, trying not to leave anything unanswered while designing the research methodology
+        and planning the experiments before proceeding for the execution and subsequent testing. In order to break the
+        randomness and to bring the plan into reality for a working prototype, we focus mainly in cross-validation with
+        theoretical testing from all possible dimensions with realistic simulations which will avoid the possible chances
+        of failure resulting in the effective utilization of national funds in a way contributing to our nation.
+      </p>
+    </div>
+  
+  </section>
+
+    <!-- Contact -->
+    <section class="contact-us">
+     <div class="row">
+      <div class="contact-col">
+        <h4>Our Location</h4>
+       <div>
+        <i class="fa fa-home"></i>
+        <span>
+         <h5>Department of Biotechnology,
+          IIT Kharagpur, West Bengal,
+          721302
+         </h5>
+        </span>
+       </div>
+       <div>
+        <i class="fa fa-phone"></i>
+        <span>
+         <h5>+91 7761827842
+             +91 8919319190
+         </h5>
+        </span>
+       </div>
+       <div>
+        <i class="fa fa-envelope-o"></i>
+        <span>
+         <h5>bioengene.iitkgp@gmail.com</h5>
+        </span>
+       </div>
+      </div>
+      <div class="contact-col contact-form">
+        <h4>Contact Form</h4>
+       <form action="form.php" method="post">
+        <input type="text" name="name" placeholder="Full Name" required>  
+        <input type="text" name="phone" placeholder="Phone" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">
+         Send 
+        </button>
+       </form>
+      </div>
+     </div>
+    </section>
+    <!-- Footer -->
+    
+    <section class="footer">
+      <h4 class="footer-heading">BIOTSAV'23</h4>
+     <div class="icons">
+        <a href=" https://www.facebook.com/profile.php?id=100063614094162" class="sociallinks">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/biotsav_iitkharagpur/" class="sociallinks">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href=" https://www.linkedin.com/company/biotsav-iit-kharagpur/" class="sociallinks">
+          <i class="fa fa-linkedin"></i>
+        </a>
+     </div>
+    </section>
+</body>
+</html>

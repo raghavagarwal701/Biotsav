@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+ <title>Biotsav</title>
+</head>
+
+<body>
+ <section class="event-header">
+  <nav>
+   <a href="index.html"><img src="img/logo1.png"></a>
+   <div class="nav-bar" id="navBar">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="our_team.html">Our Team</a></li>
+      <li><a href="workshop.html">Workshops</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+   <i class="fa fa-bars" id="icon" onclick="showMenu()"></i>
+  </nav>
+  <h1>Events</h1>
+ </section>
+
+ <!-- event details -->
+ <section class="events">
+  <div class="event-row">
+
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+   </div>
+
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+   </div>
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+   </div>
+ </section>
+
+ <section class="events">
+  <div class="event-row">
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+    </div>
+ 
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+   </div>
+ 
+   <div class="event-col">
+    <img src="./img/eventbg1.jpg">
+    <div class="event-name">
+     <h3>EVENT NAME</h3>
+    </div>
+    <div class="img-overlay">
+     <div class="img-details">Description
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="reg-form">
+  <div><a href="register.html" class="reg-link">To Register</a></div>
+ </section>
+
+ <!-- Footer -->
+  <section class="footer">
+    <h4 class="footer-heading">BIOTSAV'23</h4>
+    <div class="icons">
+      <a href=" https://www.facebook.com/profile.php?id=100063614094162" class="sociallinks">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/biotsav_iitkharagpur/" class="sociallinks">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href=" https://www.linkedin.com/company/biotsav-iit-kharagpur/" class="sociallinks">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+
+
+ <!-- javaScript for toggle menu -->
+  <script>
+    var navBar = document.getElementById("navBar");
+    var navicon = document.getElementById("icon");
+    function showMenu() {
+      navBar.style.right = "0";
+      navicon.style.visibility = "hidden";
+    }
+    function hideMenu() {
+      navBar.style.right = "-200px";
+      navicon.style.visibility = "visible";
+    }
+  </script>
+ </body>
+ </html>

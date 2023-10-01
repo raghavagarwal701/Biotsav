@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initialscale=1.0">
+  <title>Biotsav</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,800&display=swap"
+    rel="stylesheet">
+   </head>
+ </head>
+
+ <body>
+  <section class="sponsor-header">
+   <nav>
+    <a href="index.html"><img src="img/logo1.png"></a>
+    <div class="nav-bar" id="navBar">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="our_team.html">Our Team</a></li>
+      <li><a href="workshop.html">Workshops</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     </ul>
+    </div>
+    <i class="fa fa-bars" id="icon" onclick="showMenu()"></i>
+   </nav>
+   <h1>Thank you to our sponsors</h1>
+   <hr>
+  </section>
+<section class="thank">
+ <p>Thanking message</p>
+</section>
+<!-- Footer -->
+
+<section class="footer">
+  <h4 class="footer-heading">BIOTSAV'23</h4>
+  <div class="icons">
+    <a href=" https://www.facebook.com/profile.php?id=100063614094162" class="sociallinks">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/biotsav_iitkharagpur/" class="sociallinks">
+      <i class="fa fa-instagram"></i>
+    </a>
+    <a href=" https://www.linkedin.com/company/biotsav-iit-kharagpur/" class="sociallinks">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </div>
+</section>
+
+
+
+
+    <!-- javaScript for toggle menu -->
+  <script>
+    var navBar = document.getElementById("navBar");
+    var navicon = document.getElementById("icon");
+    function showMenu() {
+      navBar.style.right = "0";
+      navicon.style.visibility = "hidden";
+    }
+    function hideMenu() {
+      navBar.style.right = "-200px";
+      navicon.style.visibility = "visible";
+    }
+  </script>
+</body>
+</html>
